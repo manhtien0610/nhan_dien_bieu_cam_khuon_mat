@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset FER2013 (~35k ảnh — tải riêng, không push lên Git)
+archive/
+
+# Model đã train (tự tạo bằng train.py, ~23 MB)
+models/*.keras
+models/*.h5
+
+# Kết quả đánh giá (tự tạo bằng evaluate.py)
+results/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
